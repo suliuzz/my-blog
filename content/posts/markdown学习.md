@@ -13,7 +13,11 @@
 
    
 
-5. 能够独立创作文档
+4. 能够独立创作文档
+
+5. 这是[百度](http:baidu.com)
+
+6. 这是[我的博客](https://my-blog.1481406843.workers.dev/)
 
 ## 今天的感受
 
@@ -24,7 +28,30 @@ n=int(input())
 print(n)
 ```
 
-质能方程是 $E = mc^2$ 
+质能方程是 
+$$
+E = mc^2
+$$
+*xgboost*与*lightboost*的损失函数
+$$
+L=\sum_{i=1}^{n}
+\left[
+l(\mathbf{y}^{(i)},\hat{\mathbf{y}}_{(t-1)}^{(i)}+f_{t}^{(i)})
+\right]
++\gamma k+\frac{1}{2}\lambda\sum_{j=1}^{k}\mathbf{w}_{j}^2
+$$
+
+$$
+\arg\min_{\theta}
+\left[
+	-\sum_{i=1}^{n}
+	\left[
+		\mathbf{y^{(i)}}\ln(h_{\theta}(\mathbf{x}^{(i)}))+
+		(1-\mathbf{y}^{(i)})\ln(1-h_{\theta}(\mathbf{x}^{(i)}))
+	\right]
+\right]
+$$
+
 
 ---
 
