@@ -1,0 +1,19 @@
+{{ define "main" }}
+  <section class="hero">
+    <h1>{{ .Site.Title }}</h1>
+    <p>{{ .Site.Params.description }}</p>
+  </section>
+
+  <section class="post-list">
+    {{ $posts := where .Site.RegularPages "Section" "posts" }}
+    {{ range $posts.ByDate.Reverse }}
+      <article class="post-card">
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        <p class="meta">{{ .Date.Format "2006-01-02" }}</p>
+        <p>{{ with .Description }}{{ . }}{{ else }}{{ .Summary }}{{ end }}</p>
+      </article>
+    {{ else }}
+      <p>还没有文章，先写第一篇吧。</p>
+    {{ end }}
+  </section>
+{{ end }}
