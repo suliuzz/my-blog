@@ -1,4 +1,14 @@
+---
+
+title = "markdown and latex 学习笔记"
+date = 2026-04-02
+draft = false
+description = "study note"
+
+---
+
 # 我的第一个Markdown文档
+
 这是我学习markdown的开始
 
 ## 学习目标
