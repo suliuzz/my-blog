@@ -1,4 +1,11 @@
 baseURL = "https://example.pages.dev/"
 languageCode = "zh-cn"
 title = "suliu"
-theme = "ananke"
+defaultContentLanguage = "zh-cn"
+
+[params]
+author = "suliu"
+description = "Notes on tech, ideas, and projects."
+
+[pagination]
+pagerSize = 10

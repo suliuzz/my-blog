@@ -1,15 +1,15 @@
 +++
-title = "我的第一篇博客"
+title = "Hello World"
 date = 2026-04-02T12:00:00+08:00
 draft = false
-description = "这是博客搭建完成后的第一篇文章。"
+description = "The first post on this blog."
 +++
 
-你好，世界。
+Hello, world.
 
-这个博客现在已经不依赖外部主题仓库了，直接用本地 Hugo 模板就能启动、写作和部署。
+This blog now builds without any external Hugo theme, which makes deployment on Cloudflare Pages more reliable.
 
-以后新增文章可以用下面这条命令：
+Create your next post with:
 
 ```powershell
 hugo new content posts/my-next-post.md
