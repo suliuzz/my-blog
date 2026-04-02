@@ -1,9 +1,11 @@
 ---
 
-+++title = "markdown and latex 学习笔记"
++++  
+title = "markdown and latex 学习笔记"
 date = 2026-04-02
 draft = false
-description = "study note"+++
+description = "study note"  
++++
 
 ---
 
